@@ -1,0 +1,54 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    opacity: 0.8;
+    border-bottom: #008ed6 3px solid;
+}
+
+#home-section {
+    background: url("../img/home.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 43.75rem;
+}
+
+#home-section .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 43.75rem;
+}
+
+#home .fa-check {
+    border-radius:5px;
+    font-size: 30px;
+}
+
+#home-section .fa-check, #create-section .fa-check {
+    color: #008ed6;
+    background: #fff;
+}
+
+#explore-section .fa-check,#share-section .fa-check {
+    color:#fff;
+    background: #333;
+}
+
+/*** Custom Padding and Margin ***/
+.pt-15 {
+    padding-top: 9.375rem;
+}
+/*** End - Custom Padding and Margin ***/
+
+/*** Custom Font-Size on different screen size ***/
+@media (max-width:992px) {
+    #home-section .display-4 {
+        font-size:3rem;
+    }
+}
+/*** End - Custom Font-Size on different screen size ***/
